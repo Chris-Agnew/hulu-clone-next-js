@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA4BipbMOXANl4Wv2XchAHUpJzHq_1ea2c",
+  apiKey: process.env.REACT_APP_FIREBASE_CONFIG_KEY,
   authDomain: "hulu-app-858a9.firebaseapp.com",
   projectId: "hulu-app-858a9",
   storageBucket: "hulu-app-858a9.appspot.com",

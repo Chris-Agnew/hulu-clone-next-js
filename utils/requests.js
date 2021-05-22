@@ -1,4 +1,4 @@
-const API_KEY = "71debf9fc57f55ef390969a3e913df2d";
+const API_KEY = process.env.REACT_APP_TMDB_KEY;
 
 export default {
   fetchTrending: {
