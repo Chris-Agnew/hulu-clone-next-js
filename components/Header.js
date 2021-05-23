@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import HeaderItem from "../components/HeaderItem";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -22,7 +23,7 @@ function Header() {
       </div>
       <Image
         className="object-contain"
-        src="https://links.papareact.com/ua6"
+        src="https://chris-agnew.com/hulu.webp"
         width={200}
         height={100}
       />
