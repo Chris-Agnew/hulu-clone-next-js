@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function HeaderItem({ Icon, title }) {
   return (
     <div className="flex flex-col items-center group cursor-pointer w-12 sm:w-20 hover:text-white">

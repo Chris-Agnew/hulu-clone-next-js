@@ -8,12 +8,11 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import HeaderItem from "../components/HeaderItem";
-import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
-      <div className="flex flex-grow justify-evenly max-w-2xl">
+    <header className="flex flex-col items-center justify-between h-auto m-5 sm:flex-row">
+      <div className="flex flex-grow max-w-2xl justify-evenly">
         <HeaderItem title="HOME" Icon={HomeIcon} />
         <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
         <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
@@ -23,7 +22,7 @@ function Header() {
       </div>
       <Image
         className="object-contain"
-        src="https://chris-agnew.com/hulu.webp"
+        src="https://chris-agnew.com/hulu.png"
         width={200}
         height={100}
       />
