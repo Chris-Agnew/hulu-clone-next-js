@@ -22,7 +22,7 @@ function Header() {
       </div>
       <Image
         className="object-contain"
-        src="./hulu.png"
+        src="../hulu.png"
         width={200}
         height={100}
       />
